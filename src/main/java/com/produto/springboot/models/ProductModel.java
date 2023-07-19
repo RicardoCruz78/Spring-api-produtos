@@ -20,6 +20,13 @@ public class ProductModel implements Serializable {
 	private UUID idProduct;
 	private String name;
 	private BigDecimal value;
+	
+	
+	
+	
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
 	public UUID getIdProduct() {
 		return idProduct;
 	}
