@@ -24,7 +24,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 public class ProductController {
 	
 	
-	@Autowired
+	 @Autowired
 	ProductRepository productRepository;
 	
 	@GetMapping("/products")
